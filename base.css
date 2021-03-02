@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body{
+    background-color: #ffffff;
+}
+
+#navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    width:150px;
+    height:60px;
+    margin-left: 50px;
+}
+
+#dot{
+    color:#5243c2;
+}
+
+#menu{
+    color:lightgray;
+    text-align: center;
+}
+#one{
+    color: black;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-color:#5243c2;
+    text-decoration-thickness: 3px;
+}
+
+#menu a{
+    margin:20px;
+    font-family: 'Recursive', sans-serif;
+}
+
+
+#login-btn{
+    margin-right: 20px;
+    padding: 20px 30px 20px 30px;
+    border:none;
+    border-radius: 15px;
+    background-color:#ffc4d6;
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+}
+
+#first-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#first-container h1{
+    font-family: 'Recursive', sans-serif;
+    font-size: 100px;
+    margin-left: 100px;
+}
+
+#first-container p{
+    font-family: 'Recursive', sans-serif;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000000;
+    margin-bottom: 2px;
+    
+}
+#mid-con{
+    width: 350px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 120px;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+#mid-con button{
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+    background-color: #5243c2;
+    font-family: 'Recursive', sans-serif;
+    color: white;
+    border:none;
+    outline: none;
+}
+
+#aside{
+    margin-top: 70px;
+    
+}
+
+.list-container{
+    width:400px;
+    height:50px;
+    margin-left: 100px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+}
+
+.list-container img{
+    margin:6px;
+    padding:2px;
+}
+.list-container img img{
+    margin:20px;
+    padding:4px;
+
+}
+.list-container p{
+    color:lightgray;
+}
+.list-container h5{
+    margin:15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.list-container div{
+    width:20px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color:#fec5d6;
+}
+
+
+
+
+#box3{
+    background-color: rgb(104, 161, 104) ;
+}
+
+#box4{
+    background-color:#fce1a7;
+}
+
+
+.list-container2{
+    width:400px;
+    height:50px;
+    margin-left: 100px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    border:lightgray;
+    box-shadow: 0px 20px 10px -2px lightgray, 0px -8px 10px lightgray;
+    align-items: center;
+    font-family: 'Recursive', sans-serif;
+}
+
+.list-container2 p{
+    color:lightgray;
+    margin:8px;
+ 
+}
+
+.list-container2 img{
+    margin-left:5px;
+    padding:2px;
+}
+.list-container2 img img{
+    margin:10px;
+    
+}    
+
+.list-container2 div{
+    width:20px;
+   margin-right: 10px;
+    height: 10px;
+    border-radius: 4px;
+    background-color:orangered;
+}
+.list-container2 h5{
+    margin: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
